@@ -18,7 +18,7 @@ function Home() {
 
    
     <footer class="footer d-flex justify-content-between align-items-center p-3">
-        <span class="user-info">Usuário - Maverick Eduardo</span>
+        <span class="user-info">Usuário - Admin</span>
         <button class="btn btn-primary" onclick="goToTelaLogin()">Sair</button>
     </footer>
     </div>
