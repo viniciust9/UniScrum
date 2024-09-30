@@ -1,7 +1,7 @@
 import './Style.css';
 import { useNavigate } from 'react-router-dom';
 
-function Navbar({ text }) {
+function NavbarHome({ text }) {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
@@ -62,4 +62,4 @@ function Navbar({ text }) {
   );
 }
 
-export default Navbar;
+export default NavbarHome;
