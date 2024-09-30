@@ -22,8 +22,8 @@ function UsuarioMaster() {
 
           <Card className="card-plain table-plain-bg">
             <Card.Header>
-              <Card.Title as="h4">Gerenciamento de Tarefas</Card.Title>
-              <p className="card-category">Aqui está um resumo das suas tarefas</p>
+              <Card.Title as="h4">Gerenciamento dos Usuários vinculado ao seu master</Card.Title>
+              <p className="card-category">Aqui está a lista de usuarios</p>
             </Card.Header>
             <Card.Body className="table-full-width table-responsive px-0">
               <Table className="table-hover">

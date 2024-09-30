@@ -4,6 +4,8 @@ import Login from "../src/views/Login.js";
 import UsuarioMaster from "../src/views/UsuarioMaster.js";
 import ListaUsuarios from "./views/ListaUsuarios.js";
 import ListaTarefas from "./views/ListaTarefas.js";
+import ListaTarefasGerente from "./views/ListaTarefas_gerente.js";
+import ListaTarefasGerenteAvaliacao from "./views/ListaTarefas_gerente_avaliacao.js";
 /*import UserProfile from "views/UserProfile.js";
 import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
@@ -19,28 +21,43 @@ const dashboardRoutes = [
       layout: "/home"
     },
     {
+      path: "/Admin/listaUsuarios",
+      name: "Admin - Lista de Usuarios",
+      icon: "nc-icon nc-notes",
+      component: ListaUsuarios,
+      layout: "/admin"
+    },
+    {
+      path: "/Admin/listaTarefas",
+      name: "Admin - Lista de Tarefas",
+      icon: "nc-icon nc-notes",
+      component: ListaTarefas,
+      layout: "/admin"
+    },
+    {
+      path: "/master/listaTarefas_gerente",
+      name: "Gerente - Lista de Tarefas",
+      icon: "nc-icon nc-notes",
+      component: ListaTarefasGerente,
+      layout: "/admin"
+    },
+    {
+      path: "/master/listaTarefas_gerente_avaliacao",
+      name: "Gerente - Lista de Tarefas_avaliacao",
+      icon: "nc-icon nc-notes",
+      component: ListaTarefasGerenteAvaliacao,
+      layout: "/admin"
+    }
+
+      
+      /*
+      {
       path: "/master/tasks",
       name: "Usuario Master",
       icon: "nc-icon nc-notes",
       component: UsuarioMaster,
       layout: "/admin"
     },
-    {
-      path: "/master/listaUsuarios",
-      name: "Master - Lista de Usuarios",
-      icon: "nc-icon nc-notes",
-      component: ListaUsuarios,
-      layout: "/admin"
-    },
-    {
-      path: "/master/listaTarefas",
-      name: "Master - Lista de Tarefas",
-      icon: "nc-icon nc-notes",
-      component: ListaTarefas,
-      layout: "/admin"
-    }
-      
-      /*
     },
     {
       path: "/dashboard",

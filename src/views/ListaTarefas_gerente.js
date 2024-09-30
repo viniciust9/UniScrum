@@ -13,7 +13,7 @@ import {
   Col,
 } from "react-bootstrap";
 
-function ListaTarefas() {
+function ListaTarefasGerente() {
   return (
     <>
       <Container fluid>
@@ -142,7 +142,7 @@ function ListaTarefas() {
                       <th className="border-0">Proprietário</th>
                       <th className="border-0">Nome da Tarefa</th>
                       <th className="border-0">Descrição</th>
-                      <th className="border-0">Avaliação</th>
+                      <th className="border-0">Avaliação Média</th>
                       <th className="border-0">Sprint</th> {/* Coluna Sprint */}
                       <th className="border-0">Ações</th>
                     </tr>
@@ -231,4 +231,4 @@ function ListaTarefas() {
   );
 }
 
-export default ListaTarefas;
+export default ListaTarefasGerente;
